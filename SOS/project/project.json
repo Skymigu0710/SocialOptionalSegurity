@@ -7,7 +7,7 @@
     "ios": {
       "executor": "@nativescript/nx:build",
       "options": {
-        "platform": "ios"
+        "platforms": ["ios", "android","web"]
       },
       "configurations": {
         "build": {
