@@ -18,3 +18,5 @@ yarn.lock
 # Android & iOS build folders
 /android/
 /ios/
+../../tools/
+platforms/

@@ -21,7 +21,7 @@
     "android": {
       "executor": "@nativescript/nx:build",
       "options": {
-        "platform": "android"
+        "platform":  ["ios", "android","web"]
       },
       "configurations": {
         "build": {
