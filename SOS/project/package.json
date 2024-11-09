@@ -6,9 +6,15 @@
   "dependencies": {
     "@nativescript/core": "~8.8.0",
     "@nativescript/geolocation": "^8.0.0",
-    "react": "^18.2.0",
+    "@types/react": "~18.0.27",
+    "expo": "^48.0.0",
+    "metro-core": "^0.81.0",
+    "react": "18.2.0",
+    "react-native": "0.71.14",
     "react-nativescript": "^5.0.0",
-    "react-nativescript-navigation": "^5.0.0"
+    "react-nativescript-navigation": "^5.0.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^4.9.4"
   },
   "devDependencies": {
     "@nativescript/preview-cli": "^1.0.13",
@@ -16,11 +22,12 @@
     "@nativescript/tailwind": "^2.1.0",
     "@nativescript/types-minimal": "~8.8.0",
     "@nativescript/webpack": "~5.0.8",
-    "@types/react": "npm:types-react-without-jsx-intrinsics@^18.0.17",
-    "tailwindcss": "~3.4.0",
+    "@types/react": "^18.0.17",
+    "@types/react-native": "^0.72.8",
     "typescript": "~5.4.0"
   },
   "scripts": {
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "start": "expo start"
   }
 }
